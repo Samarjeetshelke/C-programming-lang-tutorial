@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+void main(){
+    int n1=789,n2 ;
+    top:
+    printf("please enter password");
+    scanf("%d", &n1);
+    if(n1==n2){
+        printf(WELCOME);
+    }
+    else{
+        printf("please try again");
+        goto top;
+    }
+    getchar();
+    return;
+}
+
+

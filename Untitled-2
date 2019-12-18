@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+void main(){
+    int n1 =789,n2,  ;
+    printf("welcome n/please enter password");
+    scanf("%d",&n2);
+if(n1=n2){
+    printf("thank you");
+         }
+else{
+    printf("please try again");
+    }
+goto(5);
+    return;
+}
