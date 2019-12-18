@@ -7,15 +7,15 @@ void main(){
     char n2[5], ch;
     int i = 0;
     top:
-    printf("\nwelcome \nplease enter password\n");
-    scanf("%s", n2);
-    if(strcmp(n1, n2) == 0){
-        printf("thank you");
-    }
-    else{
-        printf("please try again");
-        goto top;
-    }
+        printf("\nwelcome \nplease enter password\n");
+        scanf("%s", n2);
+        if(strcmp(n1, n2) == 0){
+            printf("thank you");
+        }
+        else{
+            printf("please try again");
+            goto top;
+        }
     getchar();
 
     return;
