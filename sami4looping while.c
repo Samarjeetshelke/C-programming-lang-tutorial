@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main(){
-    int p,n,coutn;
+    int p,n;
     float r,si;
-    count 
+    
 
 
     printf(" please enter value of principle value ,years,rate");
