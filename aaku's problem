@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+	long int i,res,n[10];
+	system("cls");
+	printf("please enter 10 number");
+
+	for(i=0;i<10;i=i+1){
+		scanf("%d",&n[i]);
+	}
+       i=0;res=1;
+	while(i<10){
+		res=res*n[i];
+		i=i+1;
+
+	}
+	printf("the multiplication is=%ld",res);
+	getch();
+	return;
+
+
+}
