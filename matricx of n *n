@@ -1,0 +1,28 @@
+ #include<stdio.h>
+  #include<conio.h>
+  void main(){
+
+  int m[50][50],n, i,j;
+  clrscr();
+  printf("which sizeof matrix u want") ;
+  scanf("%d",&n);
+  printf("plese enter %d num in matrie",n*n);
+  for(i=0;i<n;i++)
+  {
+
+	 for(j=0;j<n;j++)
+	 {
+		scanf("%d",&m[i][j]);
+	 }
+  }
+  for(i=0;i<n;i++)
+  {
+	 printf("\n");
+	for(j=0;j<n;j++)
+	{
+		printf("%d\t",m[i][j]);
+	}
+  }
+
+  getch();
+  }
