@@ -1,0 +1,26 @@
+  #include<stdio.h>
+  #include<conio.h>
+  void main(){
+
+  int m[2][2], i,j;
+  clrscr();
+  printf("plese enter 4 num in matrie");
+  for(i=0;i<2;i++)
+  {
+
+	 for(j=0;j<2;j++)
+	 {
+		scanf("%d",&m[i][j]);
+	 }
+  }
+  for(i=0;i<2;i++)
+  {
+	 printf("\n");
+	for(j=0;j<2;j++)
+	{
+		printf("%d\t",m[i][j]);
+	}
+  }
+
+  getch();
+  }
