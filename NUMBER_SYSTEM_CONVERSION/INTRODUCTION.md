@@ -1,7 +1,7 @@
-This file contains the code for :
-1.Binary To decimal
-2.Decimal to Binary
-3.Octal To decimal
-4.Decimal to Octal
-5.Hexa to Decimal
-6.Decimal to hexa
+This file contains the code for :<br>
+1.Binary To decimal<br>
+2.Decimal to Binary<br>
+3.Octal To decimal<br>
+4.Decimal to Octal<br>
+5.Hexa to Decimal<br>
+6.Decimal to hexa<br>
